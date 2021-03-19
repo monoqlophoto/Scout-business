@@ -28,9 +28,9 @@ def login():
     driver.get(url)
     sleep(5)
     show = driver.find_element_by_xpath("//*[@id='loginForm']/div/div[1]/div/label/input")
-    show.send_keys("monoqlo2021")
+    show.send_keys("")
     show = driver.find_element_by_xpath("//*[@id='loginForm']/div/div[2]/div/label/input") 
-    show.send_keys("monoqlo1234")
+    show.send_keys("")
     show.submit()
     sleep(10)
 
